@@ -26,12 +26,12 @@ public class MinArray {
 
         System.out.println();//xuống dòng;
 
-        int max = arr[0];
+        int min = arr[0];
         for (int i=1; i < arr.length; i++) {
-            if (max < arr[i]) {
-                max = arr[i];
+            if (min > arr[i]) {
+                min = arr[i];
             }
         }
-        System.out.println("The largest element in the array is: " + max);
+        System.out.println("The smallest element in the array is: " + min);
     }
 }
